@@ -10,3 +10,9 @@
 
 ![](designs/preview.png)
 `Preview`
+
+## Links
+
+- [Host](https://meals-app-react.vercel.app/)
+
+- [Author](https://github.com/d-code-h)
