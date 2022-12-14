@@ -14,14 +14,6 @@ export default function Search() {
   };
   return (
     <header className="search-container">
-      <form action="?" method="POST">
-        <div
-          class="g-recaptcha"
-          data-sitekey="6LdnSnwjAAAAAD_38JGIa5PoZyNFvQD5Kpzr2FPW"
-        ></div>
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
       <form action="#" onSubmit={handleSubmit}>
         <input
           type="text"
