@@ -14,6 +14,11 @@ export default function Search() {
   };
   return (
     <header className="search-container">
+      <form action="?" method="POST">
+        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
       <form action="#" onSubmit={handleSubmit}>
         <input
           type="text"
